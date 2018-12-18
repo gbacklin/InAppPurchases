@@ -1,0 +1,11 @@
+framework module AppStore {
+  umbrella header "AppStore.h"
+
+  export *
+  module * { export * }
+}
+
+module AppStore.Swift {
+    header "AppStore-Swift.h"
+    requires objc
+}
